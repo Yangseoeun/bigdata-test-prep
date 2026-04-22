@@ -36,3 +36,35 @@ https://velog.io/@shong676/Colab%EA%B3%BC-GitHub-%EC%97%B0%EB%8F%99%ED%95%98%EA%
 from google.colab import drive
 drive.mount('/content/drive')
 ```
+
+### Google Drive 접근
+```
+from google.colab import drive
+drive.mount('/content/drive')
+```
+### Commit을 원하는 폴더로 이동
+```
+cd /content/drive/MyDrive/bigdata-test-prep
+```
+
+### 본인임을 확인
+```
+!git config --global user.email 'yangseoeun3462@gmail.com'
+!git config --global user.name 'Yangseoeun'
+```
+
+### 폴더 add
+```
+!git add 원하는 폴더명
+```
+
+### 폴더 내에 모든 파일을 commit하고 싶은 경우
+```
+add -all
+```
+
+### commit하기
+```
+!git commit -m '원하는 아무 메시지'
+!git push
+```
