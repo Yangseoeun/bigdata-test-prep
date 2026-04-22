@@ -29,3 +29,5 @@
 * [ ] type2 모델링
 * [ ] type3 통계
 
+## Github와 Colab 연결
+https://velog.io/@shong676/Colab%EA%B3%BC-GitHub-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0
